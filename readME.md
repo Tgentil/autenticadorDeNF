@@ -1,10 +1,10 @@
-# Organizador de arquivos XML
+# Organizador de arquivos XML NF-E
 
-Este script lê arquivos XML de uma pasta especificada, busca pelo elemento "cAut" em cada arquivo e verifica se o valor desse elemento está presente em uma determinada coluna de uma planilha do Excel. Em seguida, move o arquivo para uma das três pastas, dependendo se o valor foi encontrado na planilha, se a tag "cAut" não foi encontrada ou se o arquivo não é um arquivo XML.
+Este script lê arquivos XML de NF-E 4.00 em uma pasta especificada, busca pelo elemento "cAut" em cada arquivo e verifica se o valor desse elemento está presente em uma determinada coluna de uma planilha do Excel. Em seguida, move o arquivo para uma das três pastas, dependendo se o valor foi encontrado na planilha, se a tag "cAut" não foi encontrada ou se o arquivo não é um arquivo XML.
 
 ## Por que usar este script?
 
-Este script é útil para quem precisa organizar arquivos XML em uma pasta com base em um valor presente na tag "cAut". Por exemplo, se você recebe muitos arquivos XML de notas fiscais e precisa separá-los com base no CNPJ da empresa, pode usar este script para ler o valor do CNPJ na tag "cAut" de cada arquivo XML e mover o arquivo para uma pasta correspondente, com base em uma planilha do Excel que contém uma coluna com todos os CNPJs das empresas.
+Este script é útil para quem precisa organizar arquivos NF-E em XML em uma pasta com base em um valor presente na tag "cAut". Por exemplo, se você recebe muitos arquivos XML e precisa verificar se estão em uma planilha, pode usar este script para ler o valor de uma tag de cada arquivo XML e mover o arquivo para uma pasta correspondente, com base em uma planilha do Excel que contém uma coluna com todos os valores da tag que você porcura.
 
 ## Setup
 
